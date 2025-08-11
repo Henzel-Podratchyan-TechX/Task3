@@ -22,3 +22,24 @@ console.log("Comparison with == operator: ");
 console.log(ageString == ageNumber);
 console.log("Comparison with === operator: ");
 console.log(ageString === ageNumber);
+
+//Part 4
+const score = 89
+let grade = null
+
+if (score >= 90 && score <= 100) {
+    console.log("A. 90 - 100");
+    grade = "A"
+} else if (score >= 80 && score < 90) {
+    console.log("B. 80 - 89");
+    grade = "B"
+} else if (score >= 70 && score < 80) {
+    console.log("C. 70 - 79");
+    grade = "C"
+} else if (score >= 60 && score < 70) {
+    console.log("D. 60 - 69");
+    grade = "D"
+} else {
+    console.log("F. Below 6");
+    grade = "F"
+}
