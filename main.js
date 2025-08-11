@@ -43,3 +43,21 @@ if (score >= 90 && score <= 100) {
     console.log("F. Below 6");
     grade = "F"
 }
+
+//Part 5
+switch (score) {
+    case "A":
+        console.log("Excellent work!");
+        break;
+    case "B":
+        console.log("Good job!");
+        break;
+    case "C":
+        console.log("Keep improving.");
+        break;
+    case "D":
+        console.log("Try harder.");
+        break;
+    default:
+        console.log("Needs serious effort.");
+}
