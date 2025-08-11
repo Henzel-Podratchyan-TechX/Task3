@@ -10,3 +10,7 @@ const contact = {
     phone: "+37498765432",
     city: "Yerevan"
 }
+
+//Part 2
+console.log(`Hi, my name is ${firstName} ${lastName}. I live in ${contact.city}`);
+
