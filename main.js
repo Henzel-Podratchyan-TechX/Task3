@@ -14,3 +14,11 @@ const contact = {
 //Part 2
 console.log(`Hi, my name is ${firstName} ${lastName}. I live in ${contact.city}`);
 
+//Part 3
+const ageString = "25"
+const ageNumber = 25
+
+console.log("Comparison with == operator: ");
+console.log(ageString == ageNumber);
+console.log("Comparison with === operator: ");
+console.log(ageString === ageNumber);
