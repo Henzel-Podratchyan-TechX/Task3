@@ -61,3 +61,6 @@ switch (score) {
     default:
         console.log("Needs serious effort.");
 }
+
+//Part 6
+score >= 70 ? console.log("You passed.") : console.log("You failed.")
